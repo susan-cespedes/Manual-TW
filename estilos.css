@@ -1,0 +1,44 @@
+.cabecera{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(189,115,245,1) 100%);
+    background-position: center;
+    background-size: cover;
+    min-width :100%;
+    position:fixed;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    left:0; right:0; top:0;
+}
+h2{
+    position: absolute;
+}
+b{
+    border-radius: 0%;
+}
+.cuerpoNoEncabezado{
+    padding: 270px
+}
+table {
+    width: 90%;
+  }
+body {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-morado-nublado_91008-258.jpg?w=2000");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+table {
+     border: #b2b2b2 1px solid;
+     font: 1em Elephant;
+     line-height: 1cm;
+}
+td, th {
+    border: black 2px solid;
+}
+h1 {
+    font: 2em Brush Script MT black;
+}
+h2 {
+    font: 1em Brush Script MT;
+}

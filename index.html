@@ -5,58 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
-<style> 
-    body {
-        background-image: url("https://img.freepik.com/vector-gratis/fondo-morado-nublado_91008-258.jpg?w=2000");
-        background-size: cover;
-        background-repeat:no-repeat;
-        background-position: center center;
-    }
-    table {
-         border: #b2b2b2 1px solid;
-         font: 1em Elephant;
-         line-height: 1cm;
-    }
-    td, th {
-        border: black 2px solid;
-    }
-    h1 {
-        border: #b2b2b2 2px solid;
-        font: 2em Brush Script MT black;
-    }
-    h2 {
-        font: 1em Brush Script MT;
-    }
-
-</style>
 <body>
-    <h2><b>Susan Milenka Céspedes Lazcano</b></h2>
     <center>
-    <h1><b>RECURSOS PARA DESARROLLADORES</b></h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Descripcion</th>
-                <th>Enlace</th>
+    <div class="cabecera">
+       <h2><b>Susan Milenka Céspedes Lazcano</b></h2>
+       <h1><b>RECURSOS PARA DESARROLLADORES</b></h1>
+       <table>
+           <thead>
+               <tr>
+                   <th>Nombre</th>
+                   <th>Descripcion</th>
+                   <th>Enlace</th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>MDN</td>
+                   <td>Documentacion sobre css, html, JavaScript y APIS web.	</td>
+                   <td><a href="https://developer.mozilla.org/es/" target="_blank">Ir a la pagina</a></a></td>
+               </tr>
+               <tr>
+                   <td>HTML STANDARD</td>
+                   <td>Especificacion de HTML</td>
+                   <td><a href="https://html.spec.whatwg.org/" target="_blank">Ir a la pagina</a></a></td>
+               </tr>
+               <tr>
+                <td>MARKUP VALIDATION SERVICE</td>
+                <td>Revisa errores de sintaxis de HTML</td>
+                <td><a href="https://validator.w3.org/" target="_blank">Ir a la pagina</a></a></td>
             </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>MDN</td>
-                <td>Documentacion sobre css, html, JavaScript y APIS web.	</td>
-                <td><a href="https://developer.mozilla.org/es/" target="_blank">Ir a la pagina</a></a></td>
-            </tr>
-            <tr>
-                <td>HTML STANDARD</td>
-                <td>Especificacion de HTML</td>
-                <td><a href="https://html.spec.whatwg.org/" target="_blank">Ir a la pagina</a></a></td>
-            </tr>
-            
-        </tbody>    
-    </table>
-    <hr>
+               
+           </tbody>    
+       </table>
+    </div>
+    <div class="cuerpoNoEncabezado">
     <h1><b>ELEMENTOS HTML</b></h1>
     <table>
         <thead>
@@ -530,5 +514,6 @@
         </tbody> 
     </center>   
     </table>
+    </div>
 </body>
 </html>
