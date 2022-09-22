@@ -8,7 +8,7 @@ border-collapse: collapse;
 .styled-table thead tr {
 	 background-color: #980081;
 	  color: #ffffff; 
-	  text-align: middle; }
+	  text-align:center; }
 .styled-table th, .styled-table td {
 	padding: 12px 10px;
 	border-left: #999 1px solid;
