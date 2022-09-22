@@ -40,8 +40,8 @@
                 <li><a href="html.html#genericos">Elementos Genericos</a></li>
                 <li><a href="html.html#semanticos">Elementos Semanticos</a></li>
                 <li><a href="html.html#manejodetexto">Manejo de Texto</a>
-                <li><a href="#">Tablas</a></li>
-                <li><a href="#">Enlaces e Imágenes</a></li>
+                <li><a href="html.html#tablasuno">Tablas</a></li>
+                <li><a href="html.html#enlacesimagenes">Enlaces e Imágenes</a></li>
             </li>
             </ul>
             </li>
@@ -103,7 +103,7 @@ window.onclick = function(event) {
   <div id="columnauno">
 <!--creamos titulo de la tabla-->
 <div id="genericos" class="genericos">
-<h2>GENÉRICOS</h2>
+<h2>ELEMENTOS GENÉRICOS</h2>
 </div>
 <!--cerramos el titulo de la tabla-->
 
@@ -112,30 +112,24 @@ window.onclick = function(event) {
  <table align="center" class="styled-table">
   <thead>
    <tr>
-     <th>Nombre</th> 
+     <th>Elemento</th> 
      <th>Descripción</th>
-     <th>Enlace</th> 
+     <th>Documentación</th> 
    </tr>
   </thead>
   <tbody>
   
   <tr>
-   <td>MDN</td>
-   <td>Documentacion sobre css, html, JavaScript y APIS web.</td>
-   <td><a class="enlace" href="https://developer.mozilla.org/es/" target="new" title="Documentación">Ir a la página</a></td>
+   <td>&ltdiv&gt</td>
+   <td>Crea secciones o agrupa contenido</td>
+   <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="new" title="Documentación">div</a></td>
    </tr>
    
    <tr>
-   <td>HTML STANDARD</td>
-   <td>Especificacion de HTML</td>
-   <td><a class="enlace" href="https://html.spec.whatwg.org/" target="new" title="Especificaciones">Ir a la página</a></td>
+   <td>&ltspan&gt</td>
+   <td>Contenedor genérico en línea para redactar contenido, que no representa inherentemente nada</td>
+   <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" target="new" title="Documentación">span</a></td>
    </tr>
-   
-    <tr>
-     <td>MARKUP VALIDATION SERVICE</td>
-     <td>Revisa errores de sintaxis de HTML</td>
-     <td><a class="enlace" href="https://validator.w3.org/" target="new" title="Sintáxis">Ir a la página</a></td>
-     </tr>
      </tbody>
     </table>
     
@@ -144,8 +138,8 @@ window.onclick = function(event) {
  
  
 <!--creamos titulo de la tabla-->
-<div id="genericos" class="genericos">
-<h2>SEMANTICOS</h2>
+<div id="semanticos" class="genericos">
+<h2>ELEMENTOS SEMANTICOS</h2>
 </div>
 <!--cerramos el titulo de la tabla-->
 
@@ -154,36 +148,202 @@ window.onclick = function(event) {
  <table align="center" class="styled-table">
   <thead>
    <tr>
-     <th>Nombre</th> 
+     <th>Elemento</th> 
      <th>Descripción</th>
-     <th>Enlace</th> 
+     <th>Documentación</th> 
    </tr>
   </thead>
   <tbody>
   
   <tr>
-   <td>MDN</td>
-   <td>Documentacion sobre css, html, JavaScript y APIS web.</td>
-   <td><a class="enlace" href="https://developer.mozilla.org/es/" target="new" title="Documentación">Ir a la página</a></td>
+   <td>&lthtml&gt</td>
+   <td>Representa la raiz del documento</td>
+   <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="new" title="Documentación">html</a></td>
    </tr>
    
-   <tr>
-   <td>HTML STANDARD</td>
-   <td>Especificacion de HTML</td>
-   <td><a class="enlace" href="https://html.spec.whatwg.org/" target="new" title="Especificaciones">Ir a la página</a></td>
-   </tr>
+  <tr>
+   <td>&lthead&gt</td>
+   <td>Información general (metadatos) acerca del documento</td>
+   <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="new" title="Documentación">head</a></td>
+  </tr>
    
-    <tr>
-     <td>MARKUP VALIDATION SERVICE</td>
-     <td>Revisa errores de sintaxis de HTML</td>
-     <td><a class="enlace" href="https://validator.w3.org/" target="new" title="Sintáxis">Ir a la página</a></td>
-     </tr>
+  <tr>
+    <td>&ltbody&gt</td>
+    <td>Representa el contenido de un documento HTML</td>
+    <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="new" title="Documentación">body</a></td>
+  </tr>
+
+  <tr>
+    <td>&ltheader&gt</td>
+    <td>Representa el contenido introductorio o de navegación</td>
+    <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="new" title="Documentación">header</a></td>
+  </tr>
+
+  <tr>
+    <td>&ltarticle&gt</td>
+    <td>Representa una composición independiente en un documento, página, aplicación o sitio, que es de forma independiente</td>
+    <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="new" title="Documentación">article</a></td>
+  </tr>
+
+  <tr>
+    <td>&ltsection&gt</td>
+    <td>Representa una sección independiente genérica de un documento</td>
+    <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="new" title="Documentación">section</a></td>
+  </tr>
+
+  <tr>
+    <td>&ltnav&gt</td>
+    <td>Representa una sección de una página cuyo propósito es proporcionar enlaces de navegación</td>
+    <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="new" title="Documentación">nav</a></td>
+  </tr>
+
+  <tr>
+    <td>&ltaside&gt</td>
+    <td>Representa una parte de un documento cuyo contenido está indirectamente relacionado con el contenido principal del documento</td>
+    <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="new" title="Documentación">aside</a></td>
+  </tr>
+
+  <tr>
+    <td>&ltfooter&gt</td>
+    <td>Representa un pie de página para su ancestro más cercano que secciona el contenido</td>
+    <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="new" title="Documentación">footer</a></td>
+  </tr>
+
+  <tr>
+    <td>&ltmain&gt</td>
+    <td>Representa el contenido dominante del cuerpo de un documento</td>
+    <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="new" title="Documentación">main</a></td>
+  </tr>
+
      </tbody>
     </table>
     
   </div>
  <!--cerramos la tabla--> 
  
+ <!--creamos titulo de la tabla-->
+<div id="manejodetexto" class="genericos">
+  <h2>MANEJO DE TEXTO</h2>
+  </div>
+  <!--cerramos el titulo de la tabla-->
+  
+  <!--creamos la tabla-->
+  <div id="tablas">
+   <table align="center" class="styled-table">
+    <thead>
+     <tr>
+       <th>Nombre</th> 
+       <th>Descripción</th>
+       <th>Enlace</th> 
+     </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+     <td>MDN</td>
+     <td>Documentacion sobre css, html, JavaScript y APIS web.</td>
+     <td><a class="enlace" href="https://developer.mozilla.org/es/" target="new" title="Documentación">Ir a la página</a></td>
+     </tr>
+     
+     <tr>
+     <td>HTML STANDARD</td>
+     <td>Especificacion de HTML</td>
+     <td><a class="enlace" href="https://html.spec.whatwg.org/" target="new" title="Especificaciones">Ir a la página</a></td>
+     </tr>
+     
+      <tr>
+       <td>MARKUP VALIDATION SERVICE</td>
+       <td>Revisa errores de sintaxis de HTML</td>
+       <td><a class="enlace" href="https://validator.w3.org/" target="new" title="Sintáxis">Ir a la página</a></td>
+       </tr>
+       </tbody>
+      </table>
+      
+    </div>
+   <!--cerramos la tabla--> 
+
+   <!--creamos titulo de la tabla-->
+<div id="tablasuno" class="genericos">
+  <h2>TABLAS</h2>
+  </div>
+  <!--cerramos el titulo de la tabla-->
+  
+  <!--creamos la tabla-->
+  <div id="tablas">
+   <table align="center" class="styled-table">
+    <thead>
+     <tr>
+       <th>Nombre</th> 
+       <th>Descripción</th>
+       <th>Enlace</th> 
+     </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+     <td>MDN</td>
+     <td>Documentacion sobre css, html, JavaScript y APIS web.</td>
+     <td><a class="enlace" href="https://developer.mozilla.org/es/" target="new" title="Documentación">Ir a la página</a></td>
+     </tr>
+     
+     <tr>
+     <td>HTML STANDARD</td>
+     <td>Especificacion de HTML</td>
+     <td><a class="enlace" href="https://html.spec.whatwg.org/" target="new" title="Especificaciones">Ir a la página</a></td>
+     </tr>
+     
+      <tr>
+       <td>MARKUP VALIDATION SERVICE</td>
+       <td>Revisa errores de sintaxis de HTML</td>
+       <td><a class="enlace" href="https://validator.w3.org/" target="new" title="Sintáxis">Ir a la página</a></td>
+       </tr>
+       </tbody>
+      </table>
+      
+    </div>
+   <!--cerramos la tabla--> 
+
+<!--creamos titulo de la tabla-->
+<div id="enlacesimagenes" class="genericos">
+  <h2>ENLACES E IMAGENES</h2>
+  </div>
+  <!--cerramos el titulo de la tabla-->
+  
+  <!--creamos la tabla-->
+  <div id="tablas">
+   <table align="center" class="styled-table">
+    <thead>
+     <tr>
+       <th>Nombre</th> 
+       <th>Descripción</th>
+       <th>Enlace</th> 
+     </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+     <td>MDN</td>
+     <td>Documentacion sobre css, html, JavaScript y APIS web.</td>
+     <td><a class="enlace" href="https://developer.mozilla.org/es/" target="new" title="Documentación">Ir a la página</a></td>
+     </tr>
+     
+     <tr>
+     <td>HTML STANDARD</td>
+     <td>Especificacion de HTML</td>
+     <td><a class="enlace" href="https://html.spec.whatwg.org/" target="new" title="Especificaciones">Ir a la página</a></td>
+     </tr>
+     
+      <tr>
+       <td>MARKUP VALIDATION SERVICE</td>
+       <td>Revisa errores de sintaxis de HTML</td>
+       <td><a class="enlace" href="https://validator.w3.org/" target="new" title="Sintáxis">Ir a la página</a></td>
+       </tr>
+       </tbody>
+      </table>
+      
+    </div>
+   <!--cerramos la tabla--> 
+
   </div>
   
   <div id="enlacesdeinteres">
