@@ -1,4 +1,3 @@
-
 .styled-table { 
 border-collapse: collapse;
  margin: 25px 0; font-size:
@@ -11,8 +10,8 @@ border-collapse: collapse;
 	  color: #ffffff; 
 	  text-align: middle; }
 .styled-table th, .styled-table td {
-	 padding: 12px 15px;
-	  border-left:#999 1px solid;
+	padding: 12px 10px;
+	border-left: #999 1px solid;
 	   }
 .styled-table tbody tr { border-bottom: 1px solid #dddddd; }
 .styled-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; } .styled-table tbody tr:last-of-type { border-bottom: 2px solid #009879; }

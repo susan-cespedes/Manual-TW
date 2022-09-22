@@ -89,18 +89,17 @@ footer
 {
 	width: 100%;
 	background-color: #1b9E7D;
-	position: fixed;
-	padding: 20px;
 	text-transform: uppercase;
 	border-top: #D415E8 solid 1px;
-	z-index: auto;	
+	padding-top:20px;
+	overflow:hidden;
 }
 
 #menupie {
 	list-style-type: none;
 	margin: 0;
 	padding: 10;
-	overflow: hidden;
+
  }
 #menupiedos a
 {

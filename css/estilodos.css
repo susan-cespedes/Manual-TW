@@ -13,8 +13,7 @@
 }
 #cuerpopaginas
 {
-	width:100%;
-	z-index:10;
+	clear: both;
 
 }
 #posicion
@@ -59,7 +58,7 @@ td{
 }
 #tablas
 {
-	width: 75%;
+	width: 100%;
 	padding: 10px 10px 0px 20px;
 	margin: auto;
 	float: left;
@@ -85,10 +84,9 @@ td{
    }
 #enlacesdeinteres
 {
-	width: 20%;
-	float: right;
 	padding: 20px 10px 0px 0px;
 	text-align: center;
+	float: right;
 }
 #urlenlaces
 {
@@ -132,7 +130,13 @@ td{
 	}
 .genericos
 {
-	width: 50%;
 	text-align: left;
 	margin: auto;
+	width: 40%;
+}
+#columnauno
+{
+	width: 80%;
+	float: left;
+	overflow: hidden;
 }
