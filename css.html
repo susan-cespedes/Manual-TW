@@ -1,0 +1,199 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link  rel="icon"   href="imagenes/favicon.ico" type="image/png" />
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+<link href="css/estilodos.css" rel="stylesheet" type="text/css">
+<link href="css/menu.css" rel="stylesheet" type="text/css">
+<link href="css/efectoscss.css" rel="stylesheet" type="text/css">
+<link href="css/tabla.css" rel="stylesheet" type="text/css">
+<link href="css/modal.css" rel="stylesheet" type="text/css">
+
+<title>{::CSS;;}</title>
+</head>
+
+<body>
+<div id="cabecera">
+<div id="posicion">
+<img src="imagenes/logo.png" width="143" height="127">
+<div id="titulocabecera">
+<div id="efectos">
+
+<div id="efectonuevo">&lt; CSS &gt;</div>
+
+<div id="efectonuevodos"> 
+  <span> Cascading Style Sheets</span>
+</div>
+
+</div>
+<div class="borrar"></div>
+</div>
+</div>
+
+
+<div id="menu">
+  <ul id="menunavegador">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="html.html">HTML</a>
+            <ul>
+                <li><a href="#">Elementos Genericos</a></li>
+                <li><a href="#">Elementos Semanticos</a></li>
+                <li><a href="#">Manejo de Texto</a>
+                <li><a href="#">Tablas</a></li>
+                <li><a href="#">Enlaces e Imágenes</a></li>
+            </li>
+            </ul>
+            </li>
+            <li><a href="css.html">CSS</a>
+            <ul>
+            <li><a href="#">Estilos</a></li>
+            <li><a href="#">Colores</a></li>
+            <li><a href="#">Selectores</a></li>
+            <li><a href="#">Unidades</a></li>
+            <li><a href="#">Propiedades</a></li>
+            </ul>
+      </li>
+             <li><a href="desarrollador.html">DESARROLLADOR</a></li>
+             <li><a id="myBtn" href="#">ACERCA DE</a></li>
+    </ul>
+    
+ 
+    
+</div>
+<div style="clear: both; background-color: 86468b;"></div>
+</div>
+
+<div id="cuerpopaginas">
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+     
+    <span class="close">&times;</span>
+    <h2>TITULO</h2>
+    <p>Gracias por visitar mi sitio web</p>
+    <p>Este sitio fue realizado por: </p>
+    <p>En la materia de:</p>
+  </div>
+
+</div>
+
+<script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<div id="lugarweb">
+<a href="index.html" class="enlace">Inicio</a>/ HTML</div>
+
+<!--creamos titulo de la tabla-->
+<div id="genericos" class="genericos">
+<h2>GENÉRICOS</h2>
+</div>
+<!--cerramos el titulo de la tabla-->
+<!--creamos la tabla-->
+<div id="tablas">
+ <table align="center" class="styled-table">
+  <thead>
+   <tr>
+     <th>Nombre</th> 
+     <th>Descripción</th>
+     <th>Enlace</th> 
+   </tr>
+  </thead>
+  <tbody>
+  
+  <tr>
+   <td>MDN</td>
+   <td>Documentacion sobre css, html, JavaScript y APIS web.</td>
+   <td><a class="enlace" href="https://developer.mozilla.org/es/" target="new" title="Documentación">Ir a la página</a></td>
+   </tr>
+   
+   <tr>
+   <td>HTML STANDARD</td>
+   <td>Especificacion de HTML</td>
+   <td><a class="enlace" href="https://html.spec.whatwg.org/" target="new" title="Especificaciones">Ir a la página</a></td>
+   </tr>
+   
+    <tr>
+     <td>MARKUP VALIDATION SERVICE</td>
+     <td>Revisa errores de sintaxis de HTML</td>
+     <td><a class="enlace" href="https://validator.w3.org/" target="new" title="Sintáxis">Ir a la página</a></td>
+     </tr>
+     </tbody>
+    </table>
+    
+  </div>
+ <!--cerramos la tabla-->
+  <div id="enlacesdeinteres">
+  <div id="tituloenlace">
+  ENLACES DE INTERES
+  </div>
+  <div id="urlenlaces">
+  <ul id="linkenlaces">
+  <li><a href="https://www.w3schools.com/" target="new">Manual - w3schools </a>
+  </li>
+   <li><a href="http://www.w3big.com/es/css3/css3-text-effects.html#gsc.tab=0" target="new">Efectos - w3big</a></li>
+ 
+  <li><a href="https://plantillashtmlgratis.com/categoria/efectos-css/texto-animado-css/" target="new">Planillas - Efectos</a></li>
+  <li><a href="https://www.w3schools.com/howto/howto_css_modals.asp" target="new">Efecto Modal</a></li>
+  </ul>
+  </div>
+
+</div>
+</div>
+
+</body>
+<div style="clear: both; background-color: 86468b;"></div>
+<footer>
+<div id="logofooter"><a class="imagenlogo" href="index.html"><img src="imagenes/logo90x90.png" title="SUSAN CESPEDES"></a>
+<div id="copy">&copy; 2022</div>
+</div>
+<div id="columanuno">
+<div id="tituloDos">
+MENU
+</div>
+
+
+<div id="menufooter">
+<ul id="menupie">
+<li id="menupiedos" class="menupiefooter"><a href="desarrollador.html">Recursos para desarrolladores</a></li>
+<li id="menupiedos"><a href="html.html" > html</a></li>
+<li id="menupiedos"><a href="css.html" > CSS</a></li>
+</ul>
+
+</div>
+
+</div>
+<div id="columandos">
+<div id="tituloDos">
+MIS REDES SOCIALES
+</div>
+
+<div id="menufooter">
+<ul id="menuredes">
+<li class="menuredesli" ><a class="efectologos" href="https://www.instagram.com/susan_cespedesl/" target="new"><img class="efecto" title="INSTAGRAM" src="imagenes/instagram55x55.png" width="55" height="56"></a></li>
+<li class="menuredesli"><a class="efectologos" href="https://wa.me/59165396143?text=Estoy %20Interesado%20en%20conocer%20tu%20sitio%20Web" target="new"> <img title="WHATSAPP" src="imagenes/waths55x55.png" width="55" height="56"></a></li>
+<li class="menuredesli"><a class="efectologos" href="mailto:susan.cespedes@ucb.edu.bo"> <img title="CORREO" src="imagenes/correo55x55.png" width="55" height="56"></a></li>
+</ul>
+
+</div>
+
+</div>
+
+</footer>
+
+</html>
