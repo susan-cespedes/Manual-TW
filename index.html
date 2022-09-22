@@ -1,519 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilos.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link  rel="icon"   href="imagenes/favicon.ico" type="image/png" />
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+<title>MI MANUAL</title>
 </head>
+
 <body>
-    <center>
-    <div class="cabecera">
-       <h2><b>Susan Milenka Céspedes Lazcano</b></h2>
-       <h1><b>RECURSOS PARA DESARROLLADORES</b></h1>
-       <table>
-           <thead>
-               <tr>
-                   <th>Nombre</th>
-                   <th>Descripcion</th>
-                   <th>Enlace</th>
-               </tr>
-           </thead>
-           <tbody>
-               <tr>
-                   <td>MDN</td>
-                   <td>Documentacion sobre css, html, JavaScript y APIS web.	</td>
-                   <td><a href="https://developer.mozilla.org/es/" target="_blank">Ir a la pagina</a></a></td>
-               </tr>
-               <tr>
-                   <td>HTML STANDARD</td>
-                   <td>Especificacion de HTML</td>
-                   <td><a href="https://html.spec.whatwg.org/" target="_blank">Ir a la pagina</a></a></td>
-               </tr>
-               <tr>
-                <td>MARKUP VALIDATION SERVICE</td>
-                <td>Revisa errores de sintaxis de HTML</td>
-                <td><a href="https://validator.w3.org/" target="_blank">Ir a la pagina</a></a></td>
-            </tr>
-               
-           </tbody>    
-       </table>
-    </div>
-    <div class="cuerpoNoEncabezado">
-    <h1><b>ELEMENTOS HTML</b></h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Elemento</th>
-                <th>Descripcion</th>
-                <th>Documentacion</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>&lthtml&gt</td>
-                <td>Representa la raiz del documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="_blank">html</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltdiv&gt</td>
-                <td>Elemento generico</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">div</a></a></td>
-            </tr>
-            <tr>
-                <td>&lttable&gt</td>
-                <td>Representa una tabla</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank">table</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltp&gt</td>
-                <td>Distribuye el texto en párrafos</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">p</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltinput&gt</td>
-                <td>Crea controles interactivos para formularios basados en la web</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank">input</a></a></td>
-            </tr>
-            <tr>
-                <td>&lthead&gt</td>
-                <td>Información general (metadatos) acerca del documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="_blank">head</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltbase&gt</td>
-                <td>Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas de un documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base" target="_blank">base</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltlink&gt</td>
-                <td>Especifica la relación entre el documento actual y un recurso externo</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link" target="_blank">link</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltmeta&gt</td>
-                <td>Eportar información sobre el documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="_blank">meta</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltnoscript&gt</td>
-                <td>Aporta contenido alternativo al elemento script</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript" target="_blank">noscript</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltscript&gt</td>
-                <td>Se utiliza para incrustar código o datos ejecutables</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script" target="_blank">script</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltstyle&gt</td>
-                <td>Contiene información de estilo para un documento o parte de un documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style" target="_blank">style</a></a></td>
-            </tr>
-            <tr>
-                <td>&lttitle&gt</td>
-                <td>Define el título del documento que se muestra en la barra de título del navegador o en la pestaña de una página</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank">title</a></a></td>
-            </tr>
-            <tr>
-                <td>&lta&gt</td>
-                <td>Crea un hipervínculo a páginas web, archivos, direcciones de correo electrónico, ubicaciones de página o cualquier otra cosa que una URL pueda abordar</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">a</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltabbr&gt</td>
-                <td>Representa una abreviatura o un acrónimo</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" target="_blank">abbr</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltaddress&gt</td>
-                <td>Indica que el HTML proporciona información de contacto para una persona o para una organización</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address" target="_blank">address</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltarticle&gt</td>
-                <td>Representa una composición independiente en un documento, página, aplicación o sitio, que es de forma independiente</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">article</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltaside&gt</td>
-                <td>Representa una parte de un documento cuyo contenido está indirectamente relacionado con el contenido principal del documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">aside</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltaudio&gt</td>
-                <td>Se utiliza para incrustar contenido de sonido en los documentos</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">audio</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltb&gt</td>
-                <td>Se utiliza para llamar la atención del lector sobre el contenido del elemento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b" target="_blank">b</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltbdo&gt</td>
-                <td>Anula la direccionalidad actual del texto</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo" target="_blank">bdo</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltbdi&gt</td>
-                <td>Dice al algoritmo bidireccional del navegador que trate el texto que contiene de forma aislada del texto que lo rodea</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi" target="_blank">bdi</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltblockquote&gt</td>
-                <td>Indica que el texto adjunto es una cita extendida</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" target="_blank">blockquote</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltbr&gt</td>
-                <td>Produce un salto de línea en el texto</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" target="_blank">br</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltbutton&gt</td>
-                <td>Elemento interactivo activado por un usuario con un mouse, teclado, dedo, comando de voz u otra tecnología de asistencia</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button" target="_blank">button</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltcanvas&gt</td>
-                <td>Con la API de secuencias de comandos de lienzo o la API de WebGL para dibujar gráficos y animaciones</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas" target="_blank">canvas</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltcite&gt</td>
-                <td>Se usa para describir una referencia a un trabajo</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite" target="_blank">cite</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltcode&gt</td>
-                <td>Muestra su contenido con estilo para indicar que el texto es un fragmento corto de código de computadora</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code" target="_blank">code</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltdata&gt</td>
-                <td>Vincula una determinada pieza de contenido con una traducción legible por máquina</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data" target="_blank">data</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltdetalist&gt</td>
-                <td>Representan las opciones permitidas o recomendadas disponibles para elegir dentro de otros controles</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist" target="_blank">datalist</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltdel&gt</td>
-                <td>Representa un rango de texto que se ha eliminado de un documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del" target="_blank">del</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltdetails&gt</td>
-                <td>Crea un widget de divulgación en el que la información es visible solo cuando el widget se cambia a un estado "abierto"</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" target="_blank">details</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltdfn&gt</td>
-                <td>Indica el término que se define dentro del contexto de una frase u oración de definición</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn" target="_blank">dfn</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltdl&gt</td>
-                <td>Representa una lista de descripción</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl" target="_blank">dl</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltem&gt</td>
-                <td>Marca el texto que tiene énfasis</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" target="_blank">em</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltembed&gt</td>
-                <td>Incrusta contenido externo en el punto especificado del documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed" target="_blank">embed</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltfieldset&gt</td>
-                <td>Agrupa varios controles, así como etiquetas dentro de un formulario web</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset" target="_blank">fieldset</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltfigure&gt</td>
-                <td>Representa contenido autónomo, potencialmente con un título opcional</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" target="_blank">figure</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltfooter&gt</td>
-                <td>Representa un pie de página para su ancestro más cercano que secciona el contenido</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">footer</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltform&gt</td>
-                <td>Representa una sección de documento que contiene controles interactivos para enviar información</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank">form</a></a></td>
-            </tr>
-            <tr>
-                <td>&lth1&gt</td>
-                <td>Nivel de sección más alto</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1" target="_blank">h1</a></a></td>
-            </tr>
-            <tr>
-                <td>&lth2&gt</td>
-                <td>Nivel de sección segundo</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2" target="_blank">h2</a></a></td>
-            </tr>
-            <tr>
-                <td>&lth3&gt</td>
-                <td>Nivel de sección tercero</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3" target="_blank">h3</a></a></td>
-            </tr>
-            <tr>
-                <td>&lth4&gt</td>
-                <td>Nivel de sección cuarto</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4" target="_blank">h4</a></a></td>
-            </tr>
-            <tr>
-                <td>&lth5&gt</td>
-                <td>Nivel de sección quinto</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5" target="_blank">h5</a></a></td>
-            </tr>
-            <tr>
-                <td>&lth6&gt</td>
-                <td>Nivel de sección mas bajo</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6" target="_blank">h6</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltheader&gt</td>
-                <td>Representa contenido introductorio, normalmente un grupo de ayudas introductorias o de navegación</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="_blank">header</a></a></td>
-            </tr>
-            <tr>
-                <td>&lthgroup&gt</td>
-                <td>Representa un encabezado y contenido relacionado</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup" target="_blank">hgroup</a></a></td>
-            </tr>
-            <tr>
-                <td>&lthr&gt</td>
-                <td>Representa una ruptura temática entre elementos a nivel de párrafo</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr" target="_blank">hr</a></a></td>
-            </tr>
-            <tr>
-                <td>&lti&gt</td>
-                <td>Representa un rango de texto que se separa del texto normal, como texto idiomático, términos técnicos, designaciones taxonómicas, etc</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i" target="_blank">i</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltiframe&gt</td>
-                <td>Representa un contexto de navegación anidado, incrustando otra página HTML</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target="_blank">iframe</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltimg&gt</td>
-                <td>Incrusta una imagen en el documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">img</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltins&gt</td>
-                <td>Representa un rango de texto que se ha agregado a un documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins" target="_blank">ins</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltkbd&gt</td>
-                <td>Representa un tramo de texto en línea que indica la entrada textual del usuario desde un teclado, voz o cualquier otro dispositivo de entrada de texto</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd" target="_blank">kbd</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltlabel&gt</td>
-                <td>Representa un título para un elemento en una interfaz de usuario</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label" target="_blank">label</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltmain&gt</td>
-                <td>Representa el contenido dominante del cuerpo de un documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="_blank">main</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltmap&gt</td>
-                <td>Se utiliza para definir un mapa de imagen</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map" target="_blank">map</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltmark&gt</td>
-                <td>Representa texto que está marcado o resaltado para fines de referencia</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark" target="_blank">mark</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltmath&gt</td>
-                <td>Se utiliza para escribir una única fórmula matemática</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/math" target="_blank">math</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltmenu&gt</td>
-                <td>Se describe en la especificación HTML como una alternativa semántica</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu" target="_blank">menu</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltmeter&gt</td>
-                <td>Representa un valor escalar dentro de un rango conocido o un valor fraccionario</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter" target="_blank">meter</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltnav&gt</td>
-                <td>Representa una sección de una página cuyo propósito es proporcionar enlaces de navegación</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank">nav</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltnoscript&gt</td>
-                <td>Secuencia de comandos en la página no es compatible o si las secuencias de comandos están desactivadas en el navegador</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript" target="_blank">noscript</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltobject&gt</td>
-                <td>Representa un recurso externo, que se puede tratar como una imagen, un contexto de navegación, etc</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object" target="_blank">object</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltol&gt</td>
-                <td>Representa una lista ordenada de elementos</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank">ol</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltoutput&gt</td>
-                <td>Elemento contenedor en el que un sitio o aplicación puede inyectar los resultados</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output" target="_blank">output</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltpicture&gt</td>
-                <td>Ofrece versiones alternativas de una imagen para diferentes escenarios de visualización</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture" target="_blank">picture</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltpre&gt</td>
-                <td>Representa texto preformateado que debe presentarse exactamente como está escrito en el archivo HTML</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre" target="_blank">pre</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltprogress&gt</td>
-                <td>Muestra un indicador que muestra el progreso de finalización de una tarea</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress" target="_blank">progress</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltq&gt</td>
-                <td>Indica que el texto adjunto es una cita breve en línea</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q" target="_blank">q</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltruby&gt</td>
-                <td>Representa pequeñas anotaciones que se representan encima, debajo o al lado del texto base</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby" target="_blank">ruby</a></a></td>
-            </tr>
-            <tr>
-                <td>&lts&gt</td>
-                <td>Muestra el texto tachado o con una línea que lo atraviesa</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s" target="_blank">s</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltsamp&gt</td>
-                <td>Se utiliza para encerrar texto en línea que representa la salida de muestra de un programa de computadora</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp" target="_blank">samp</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltscript&gt</td>
-                <td>Se utiliza para incrustar código o datos ejecutables</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script" target="_blank">script</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltsection&gt</td>
-                <td>Representa una sección independiente genérica de un documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">section</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltselect&gt</td>
-                <td>Representa un control que proporciona un menú de opciones</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select" target="_blank">select</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltsmall&gt</td>
-                <td>Representa comentarios secundarios y letra pequeña, como derechos de autor y texto legal, independiente de su estilo</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small" target="_blank">small</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltspan&gt</td>
-                <td>Contenedor genérico en línea para redactar contenido, que no representa inherentemente nada</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" target="_blank">span</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltstrong&gt</td>
-                <td>Indica que su contenido tiene una gran importancia, seriedad o urgencia</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" target="_blank">strong</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltsub&gt</td>
-                <td>Especifica el texto en línea que debe mostrarse como subíndice únicamente por motivos tipográficos</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub" target="_blank">sub</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltsup&gt</td>
-                <td>Especifica el texto en línea que se mostrará como superíndice únicamente por motivos tipográficos</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup" target="_blank">sup</a></a></td>
-            </tr>
-            <tr>
-                <td>&lttemplate&gt</td>
-                <td>Mecanismo para contener HTML que no debe representarse inmediatamente cuando se carga una página</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template" target="_blank">template</a></a></td>
-            </tr>
-            <tr>
-                <td>&lttextarea&gt</td>
-                <td>Representa un control de edición de texto sin formato de varias líneas</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea" target="_blank">textarea</a></a></td>
-            </tr>
-            <tr>
-                <td>&lttime&gt</td>
-                <td>Representa un período específico en el tiempo</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time" target="_blank">time</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltu&gt</td>
-                <td>Representa un tramo de texto en línea que debe representarse de manera que indique que tiene una anotación no textual</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u" target="_blank">u</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltul&gt</td>
-                <td>Representa una lista desordenada de elementos, normalmente representada como una lista con viñetas</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">ul</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltvar&gt</td>
-                <td>Representa el nombre de una variable en una expresión matemática o un contexto de programación</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var" target="_blank">var</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltvideo&gt</td>
-                <td>Incorpora un reproductor multimedia que admite la reproducción de video en el documento</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank">video</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltwbr&gt</td>
-                <td>representa una oportunidad de salto de palabra</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr" target="_blank">wbr</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltarea&gt</td>
-                <td>Define un área dentro de un mapa de imagen que tiene áreas predefinidas en las que se puede hacer clic</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area" target="_blank">area</a></a></td>
-            </tr>
-            <tr>
-                <td>&ltbody&gt</td>
-                <td>Representa el contenido de un documento HTML</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="_blank">body</a></a></td>
-            </tr>
-            <tr>
-                <td>&lthead&gt</td>
-                <td>Contiene información legible por máquina sobre el documento, como su título, scripts y hojas de estilo</td>
-                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="_blank">head</a></a></td>
-            </tr>
-        </tbody> 
-    </center>   
-    </table>
-    </div>
+
+<div id="cuerpo">
+
+<div id="titulo">
+<h1>MI MANUAL</h1>
+</div>
+<div id="logo">
+  <img title="SUSAN CESPEDES" class="logoprincipal" src="imagenes/logo.png" width="248" height="221"></div>
+  
+  <div id="botonesprincipal">
+  <ul id="menurecursos" >
+  <li id="fondomenu" class="menuimagenfondodeveloper" >
+   <a href="desarrollador" > RECURSOS PARA DESARROLLADORES </a>
+  </li>
+  <li id="fondomenu" class="menuimagenfondocss">
+    <a href="css.html" >{CSS}</a> </li>
+  <li id="fondomenu" class="menuimagenfondohtml"><a  href="html.html">&lt;HTMl&gt;</a></li>
+  </ul>
+  </div>
+  
+</div>
+
 </body>
+<footer>
+<div id="logofooter"><a class="imagenlogo" href="index.html"><img src="imagenes/logo90x90.png"></a>
+<div id="copy">&copy; 2022</div>
+</div>
+<div id="columanuno">
+<div id="tituloDos">
+MENU
+</div>
+
+
+<div id="menufooter">
+<ul id="menupie">
+<li id="menupiedos" class="menupiefooter"><a href="desarrollador.html">Recursos para desarrolladores</a></li>
+<li id="menupiedos"><a href="html.html" > HTML</a></li>
+<li id="menupiedos"><a href="css.html" > CSS</a></li>
+</ul>
+
+</div>
+
+</div>
+<div id="columandos">
+<div id="tituloDos">
+MIS REDES SOCIALES
+</div>
+
+
+<div id="menufooter">
+<ul id="menuredes">
+<li class="menuredesli" ><a class="efectologos" href="https://www.instagram.com/susan_cespedesl/" target="new"><img class="efecto" title="INSTAGRAM" src="imagenes/instagram55x55.png" width="55" height="56"></a></li>
+<li class="menuredesli"><a class="efectologos" href="https://wa.me/59165396143?text=Estoy %20Interesado%20en%20conocer%20tu%20sitio%20Web" target="new"> <img title="WHATSAPP" src="imagenes/waths55x55.png" width="55" height="56"></a></li>
+<li class="menuredesli"><a class="efectologos" href="mailto:susan.cespedes@ucb.edu.bo"> <img title="CORREO" src="imagenes/correo55x55.png" width="55" height="56"></a></li>
+</ul>
+
+</div>
+
+
+</div>
+
+</footer>
+
 </html>
