@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+#cuerpo
+{
+	width: 100%;
+	background: #2ce8b9;
+	padding-bottom: 20px;
+}
+#titulo
+{
+	font-family: "Mutter Krause Halbfett Bold";
+	font-weight: bold;
+	text-align: center;
+	color:#609;
+	text-shadow:4px 2px #a370a7;
+	transition: all 0.5s ease;
+
+	
+}
+#logo
+{
+	text-align:center;
+}
+
+
+#menuprincipal
+{
+	display:inline;
+	text-decoration:none;
+	
+}
+#botonesprincipal
+{
+	margin:20px 0px 0px 0px;
+	}
+#menurecursos {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: #D415E8;
+	width: 650px;
+  
+}
+.menuimagenfondodeveloper {
+	float: left;
+	background-image: url(../imagenes/desarrollador48x48.png);
+	background-repeat: no-repeat;
+	padding-left: 48px;
+}
+.menuimagenfondocss {
+	float: left;
+	background-image: url(../imagenes/css48x48.png);
+	background-repeat: no-repeat;
+	padding-left: 48px;
+}
+.menuimagenfondohtml {
+	float: left;
+	background-image: url(../imagenes/html48x48.png);
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	
+}
+
+#fondomenu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+#fondomenu a:hover {
+  background-color: #f2cd16;
+  color:#d415e8;
+  font-weight:bold;
+}
+#columanuno{
+	float: left;
+	width: 30%;
+	border-right: solid 1px #D415E8;
+}
+#tituloDos
+{
+	color:#609;
+	font-weight:bold;
+	text-align:center;
+}
+footer
+{
+	width: 100%;
+	background-color: #1b9E7D;
+	position: fixed;
+	padding: 20px;
+	text-transform: uppercase;
+	border-top: #D415E8 solid 1px;
+	z-index: auto;	
+}
+
+#menupie {
+	list-style-type: none;
+	margin: 0;
+	padding: 10;
+	overflow: hidden;
+ }
+#menupiedos a
+{
+  display: block;
+  color: #EBC349;
+  text-decoration: none;
+  padding:10px;
+ }
+ #menupiedos a:hover
+{
+  display: block;
+  color:#333;
+  text-decoration:underline;
+ }
+#logofooter
+{
+	float: left;
+	width: 30%;
+	border-right: solid 1px #D415E8;
+	text-align: center;
+}
+#copy
+{
+	font-weight:bold;
+	text-align:center;
+	margin:30px 0px 15px 0px;}
+
+#columandos{
+	float: left;
+	width: 30%;
+	text-align: center;
+	
+	
+}
+#menuredes
+{
+	display:block;
+	list-style:none;
+	margin-top:30px;
+	}
+.menuredesli
+{
+	display:inline;
+	padding:10px;
+}
+
+.imagenlogo:hover {
+	filter: grayscale(80%);
+	}
+.efectologos:hover {
+	filter: opacity(.5);
+}
+coloruno{
+	
+	}
+#tituloenlace {
+	font-weight: bold;
+	border: 1px solid #D415E8;
+	border-radius: 7px;
+	background-color: #D415E8;
+	color: #FFF;
+	padding: 5px;
+}

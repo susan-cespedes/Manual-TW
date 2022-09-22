@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	}
+
+#cabecera
+{
+	width:100%;
+	background-color:#2ce8b9;
+	
+}
+#cuerpopaginas
+{
+	width:100%;
+	z-index:10;
+
+}
+#posicion
+{
+	position: relative;
+	margin: 0px 0px 0px 30px;
+	bottom: -10px;
+	z-index: 1600;
+	clear: both;
+	}
+#titulocabecera {
+	float: right;
+	width: 80%;
+	text-align: left;
+	padding: 20px;
+}
+.borra
+{
+	clear:both;
+}
+#efectos
+{
+	position:absolute;
+	clear:both;
+	z-index:2000;}
+
+table {
+	border-collapse: collapse;
+	border: solid #F39 2px;
+	text-align: center;
+}
+td{
+	height:30px;}
+#fondotitulo
+{
+	text-align:center;
+	font-weight:bold;
+	background-color:#2ce8b9;
+	height:35px;
+	color:#000;
+	
+}
+#tablas
+{
+	width: 75%;
+	padding: 10px 10px 0px 20px;
+	margin: auto;
+	float: left;
+	overflow: hidden;
+	
+}
+.enlace
+{
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+ td .enlace:hover
+{
+	text-decoration:underline;
+	color:#f2cd16;
+	border:1px solid #d415e8;
+	background-color:#d415e8;
+	font-size:14px;
+	padding:5px;
+	border-radius:10px;
+   }
+#enlacesdeinteres
+{
+	width: 20%;
+	float: right;
+	padding: 20px 10px 0px 0px;
+	text-align: center;
+}
+#urlenlaces
+{
+	border-left: 1px solid #d415e8;
+	margin-top: 15px;
+	padding: 10px 10px 0px 10px;
+	text-transform: uppercase;
+	text-align: left;
+	
+}
+#linkenlaces
+{
+	list-style:none;
+}
+#linkenlaces li a
+{
+	color:#d415e8;
+	font-weight:bold;
+	text-decoration:none;
+}
+#linkenlaces li
+{
+	padding:12px 0px 0px 0px;
+	border-bottom:#999 1px solid;
+}
+#linkenlaces li a:hover
+{
+	
+	font-weight:bold;
+	text-decoration:none;
+	color:#f2cd16;
+}
+#lugarweb
+{
+	padding:10px 0px 0px 15px;
+}
+ .enlace:hover
+{font-weight:bold;
+	text-decoration:none;
+	color:#f2cd16;
+	}
+.genericos
+{
+	width: 50%;
+	text-align: left;
+	margin: auto;
+}
