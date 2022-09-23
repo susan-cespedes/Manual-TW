@@ -1,16 +1,18 @@
-.styled-table { 
-border-collapse: collapse;
- margin: 25px 0; font-size:
- 1em; font-family: sans-serif;
- min-width: 350px; 
- box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+.styled-table {
+	border-collapse: collapse;
+	margin: 5px 0;
+	font-size: 1em;
+	font-family: sans-serif;
+	min-width: 350px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   }
 .styled-table thead tr {
-	 background-color: #980081;
-	  color: #ffffff; 
-	  text-align:center; }
+	background-color: #980081;
+	color: #ffffff;
+	text-align: center;
+}
 .styled-table th, .styled-table td {
-	padding: 12px 10px;
+	padding: 5px 10px;
 	border-left: #999 1px solid;
 	   }
 .styled-table tbody tr { border-bottom: 1px solid #dddddd; }
@@ -20,3 +22,6 @@ border-collapse: collapse;
 tr:hover
 {
 	background-color:#f2cd16;}
+.longitudenlace {
+	width:150px;
+}
