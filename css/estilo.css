@@ -3,7 +3,7 @@
 #cuerpo
 {
 	width: 100%;
-	background: #2ce8b9;
+	background: #FA3074;
 	padding-bottom: 20px;
 }
 #titulo
@@ -11,8 +11,8 @@
 	font-family: "Mutter Krause Halbfett Bold";
 	font-weight: bold;
 	text-align: center;
-	color:#609;
-	text-shadow:4px 2px #a370a7;
+	color:#0e0d0e;
+	text-shadow:4px 2px #7F45FF;
 	transition: all 0.5s ease;
 
 	
@@ -82,14 +82,14 @@
 }
 #tituloDos
 {
-	color:#609;
+	color:rgb(15, 15, 15);
 	font-weight:bold;
 	text-align:center;
 }
 footer
 {
 	width: 100%;
-	background-color: #1b9E7D;
+	background-color: #7F45FF;
 	text-transform: uppercase;
 	border-top: #D415E8 solid 1px;
 	padding-top:20px;
@@ -105,7 +105,7 @@ footer
 #menupiedos a
 {
   display: block;
-  color: #EBC349;
+  color: #49F015;
   text-decoration: none;
   padding:10px;
  }
