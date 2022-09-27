@@ -55,6 +55,7 @@
             </ul>
       </li>
              <li><a href="desarrollador.html">DESARROLLADOR</a></li>
+             <li><a href="ejemplos.html">EJEMPLOS</a></li>
              <li><a id="myBtn" href="#">ACERCA DE</a></li>
     </ul>
     
@@ -122,6 +123,60 @@ window.onclick = function(event) {
    <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color" target="new" title="Documentación">color</a></td>
   </tr>
 
+  <tr>
+   <td>{;;usando nombres de colores;;}</td>
+   <td>Podemos especificar un color usando un nombre predefinido</td>
+   <td><a class="enlace" href="https://www.w3.org/TR/css-color-3/#svg-color" target="new" title="Documentación">nombres de colores</a></td>
+  </tr>
+
+  <tr>
+    <td>{;;funcion RGB (r,g,b);;}</td>
+    <td>Define un color como la mezcla las intensidades de colores primarios, la función: rgb(red, green, blue), valores posibles son: [0-255] o [0%-100%]</td>
+    <td><a class="enlace" href="https://www.w3.org/TR/css-color-3/#svg-color" target="new" title="Documentación">rgb</a></td>
+   </tr>
+
+   <tr>
+    <td>{;;valores hexadecimales;;}</td>
+    <td>Número hexadecimal para definir un color. Alternativa a la función rgb, permite definir un color como la mezcla de intensidades de los colores primarios</td>
+    <td><a class="enlace" href="https://www.google.com/search?si=AC1wQDAoyjQYg3jwXlqSN_ppczo9jKKsOmFX-ii0ceKX-Xhx5QxmQkS_9QR_UQFTNy8pZ0JSFc1Ium3jtyJ_ryJgK6Z_mfTCTA%3D%3D&hl=es-BO&kgs=9271fa6ec27a681f&shndl=21&source=sh/x/fbx/1&entrypoint=sh/x/fbx&fbxst=CgkKByNhZGFkYWQ" target="new" title="Documentación">hexadecimal</a></td>
+   </tr>
+
+   <tr>
+    <td>{;;opacidad;;}</td>
+    <td>Define la transparencia de un elemento,en qué grado se superpone el fondo al elemento</td>
+    <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/CSS/opacity" target="new" title="Documentación">opacidad</a></td>
+   </tr>
+
+   <tr>
+    <td>{;;función hsl(h, s, l);;}</td>
+    <td>Define el color usando la función hsl(hue, saturation, lightness)</td>
+    <td><a class="enlace" href="https://hslpicker.com/" target="new" title="Documentación">hsl</a></td>
+   </tr>
+
+   <tr>
+    <td>{;;hue;;}</td>
+    <td>Valores posibles son: [0-360] Podemos obtener los valores de la rueda de colores</td>
+    <td><a class="enlace" href="https://webplatform.github.io/docs/css/color/colors_by_hue/" target="new" title="Documentación">hue</a></td>
+   </tr>
+
+   <tr>
+    <td>{;;saturación;;}</td>
+    <td>Determina que tan fuerte o vivo es un color, valores posibles: [0%-100%] Donde 100% significa completamente saturado (color muy vivo) Donde 0% significa sin saturación alguna (color apagado)</td>
+    <td><a class="enlace" href="https://www.w3schools.com/css/css_colors_hsl.asp" target="new" title="Documentación">saturación</a></td>
+   </tr>
+
+   <tr>
+    <td>{;;lightness;;}</td>
+    <td>Establece la claridad u oscuridad del color, los valores posibles son: [0%-100%] Donde 100% significa completamente blanco. Donde 50% es normal y Donde 0% es completamente negro</td>
+    <td><a class="enlace" href="https://www.w3schools.com/css/css_colors_hsl.asp" target="new" title="Documentación">lightness</a></td>
+   </tr>
+
+   <tr>
+    <td>{;;función hsla(h, s, l, a);;}</td>
+    <td>Define el color usando la función hsla(hue, saturation, lightness, opacity), con un valor de opacidad</td>
+    <td><a class="enlace" href="http://standardista.com/webkit/ch7/hsla.html" target="new" title="Documentación">hsla</a></td>
+   </tr>
+
     </tbody>
     </table>
     
@@ -151,6 +206,34 @@ window.onclick = function(event) {
      <td>Selecciona elementos del documento a los que queremos aplicar estilos</td>
      <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="new" title="Documentación">selectores</a></td>
     </tr>
+
+    <tr>
+      <td>{;;selector universal (*);;}</td>
+      <td>Selecciona todos los elementos: *{ declaraciones CSS }</td>
+      <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors" target="new" title="Documentación">selector universal</a></td>
+     </tr>
+
+     <tr>
+      <td>{;;selector de tipo (elem);;}</td>
+      <td>Selecciona elementos usando el nombre del elemento: elem{ declaraciones CSS }</td>
+      <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors" target="new" title="Documentación">selector de tipo</a></td>
+     </tr>
+
+    <tr>
+      <td>{;;selector de clase (.elem);;}</td>
+      <td>Selecciona elementos en función de los valores del atributo class de los elementos. Para que los elementos sean seleccionados, su atributo class debe incluir un valor que coincida con el valor del selector. .elem { declaraciones CSS }</td>
+      <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors" target="new" title="Documentación">selector de clase</a></td>
+    </tr>
+
+    <tr>
+      <td>{;;selector id (#elem);;}</td>
+      <td>Selecciona un elemento en función del valor del atributo ID del elemento. Para que el elemento sea seleccionado, el id debe coincidir exactamente con el valor dado en el selector
+        #valor_atributo { declaraciones CSS }</td>
+      <td><a class="enlace" href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors" target="new" title="Documentación">selector id</a></td>
+    </tr>
+
+
+    
      
     <tr>
       <td>{;;pseudo-classes;;}</td>
@@ -485,6 +568,7 @@ MENU
 <li id="menupiedos" class="menupiefooter"><a href="desarrollador.html">Recursos para desarrolladores</a></li>
 <li id="menupiedos"><a href="html.html" > html</a></li>
 <li id="menupiedos"><a href="css.html" > CSS</a></li>
+<li id="menupiedos"><a href="ejemplos.html" > EJEMPLOS</a></li>
 </ul>
 
 </div>
