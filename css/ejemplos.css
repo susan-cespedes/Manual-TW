@@ -174,3 +174,40 @@ p {
     text-align: center;
     margin-top: 15px;
 }
+#separador{
+    border: blue solid 1px;
+    width: 90%;
+    margin: 20px 30px 0px 30px;
+}
+
+#csssubtitulo{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    font-size: 40px;
+
+    color: rgb(213, 45, 213);
+}
+
+#csstablas{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+tr td{
+    padding: 10px;
+}
+
+.cssimagen1 img {
+    -webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+td .cssimagen1:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+
