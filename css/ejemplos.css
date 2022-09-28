@@ -200,14 +200,33 @@ tr td{
     padding: 10px;
 }
 
-.cssimagen1 img {
-    -webkit-transform: scale(1.5);
-	transform: scale(1.5);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-td .cssimagen1:hover {
-    transform: scale(1);
-    -webkit-transform: scale(1);
+.cssimagen1:hover {
+    filter: grayscale(80%);
 }
 
+.cssimagen2:hover {
+    filter: blur(5px);
+}
+
+.cssimagen3:hover {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.cssimagen4:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+#cssdiv{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(44, 238, 44);
+    border-radius: 10px;
+}
