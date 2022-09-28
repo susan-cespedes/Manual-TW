@@ -194,6 +194,7 @@ p {
     width: 600px;
     margin: auto;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 tr td{
@@ -225,8 +226,87 @@ tr td{
 }
 
 #cssdiv{
-    width: 200px;
+    width: 300px;
     height: 100px;
-    background-color: rgb(44, 238, 44);
+    background-color: rgb(219, 163, 224);
     border-radius: 10px;
+    text-align: center;
+    display: table-cell;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 600px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+  -webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+#cssdiv a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#cssdiv a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline rgb(229, 9, 93) dashed 2px;
+    font-size: 25px;
+}
+
+#cssdiv:hover {
+    background-color: aqua;
+    border-radius: 20px 0 0 0;
+}
+
+#bordefectos {
+    width: 80%;
+    border: red 2px solid;
+    text-align: center;
+    margin: auto;
+
 }

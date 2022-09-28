@@ -162,9 +162,7 @@ footer
 .efectologos:hover {
 	filter: opacity(.5);
 }
-coloruno{
-	
-	}
+
 #tituloenlace {
 	font-weight: bold;
 	border: 1px solid #D415E8;
@@ -172,4 +170,10 @@ coloruno{
 	background-color: #D415E8;
 	color: #FFF;
 	padding: 5px;
+}
+
+#imgtabla{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
 }
