@@ -1,10 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
+
 #cuerpo
 {
 	width: 100%;
 	background: #FA3074;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 #titulo
 {
@@ -27,6 +28,10 @@
 {
 	display:inline;
 	text-decoration:none;
+	text-align: center;
+	flex-grow: 0;
+	flex-basis: 0%;
+	flex-shrink: 1;
 	
 }
 #botonesprincipal
@@ -36,11 +41,10 @@
 #menurecursos {
 	list-style-type: none;
 	margin: auto;
-	padding: 0;
 	overflow: hidden;
 	background-color: #D415E8;
-	width: 850px;
-  
+	width: 80%;
+	text-align: center;
 }
 .menuimagenfondodeveloper {
 	float: left;
@@ -65,6 +69,14 @@
 .menuimagenfondoejemplo {
 	float: left;
 	background-image: url(../imagenes/ejemplocss.png);
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	
+}
+
+.menuimagenfondocv {
+	float: left;
+	background-image: url(../imagenes/cv.png);
 	background-repeat: no-repeat;
 	padding-left: 50px;
 	
@@ -176,4 +188,10 @@ footer
 	width: 100%;
 	text-align: center;
 	margin-bottom: 20px;
+}
+
+@media (max-width: 450px){
+	.flex-main{
+		flex-direction: column;
+	}
 }
