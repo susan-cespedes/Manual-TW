@@ -132,7 +132,7 @@
 	pointer-events: auto;
 }
 .modalDialog > div {
-	width: 600px;
+	width: 67%;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
@@ -141,7 +141,7 @@
 	background: -moz-linear-gradient(#fff, #999);
 	background: -webkit-linear-gradient(#fff, #999);
 	background: -o-linear-gradient(#fff, #999);*/
-    background: rgb(11, 192, 224);
+    background: #F0B7FF;
   -webkit-transition: opacity 400ms ease-in;
 -moz-transition: opacity 400ms ease-in;
 transition: opacity 400ms ease-in;
@@ -171,4 +171,46 @@ h2{
 }
 p{
     line-height: 25px;
+}
+#galeriaimagen{
+	float: left;
+	padding: 10px;
+   
+   }
+#saltodediv{
+   
+	clear:both;
+}
+#cvmodalcolumnauno{
+	width: 30%;
+	position: relative;
+	float: left;
+	background-color: #cd4097;
+}
+#cvmodalcolumnados{
+	width: 60%;
+	float: right;
+	border-left: 1px solid rgb(31, 24, 236);
+}
+#fotoperfil{
+	text-align: center;
+}
+#qr{
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+#sobremi{
+	padding: 10px 30px 10px 30px;
+}
+#titulosobremi{
+	width: 65%;
+	margin-bottom: 20px;
+	text-align: justify;
+	font-weight: bold;
+	border-bottom: 2px solid rgb(255, 255, 255);
+	font-size: 25px;
+}
+#descripcionperfil{
+	text-align: justify;
+	line-height: 25px;
 }
