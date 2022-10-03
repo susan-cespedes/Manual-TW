@@ -80,12 +80,18 @@
     <div id="cvcolumnados">
         <div id="bienvenida">
             <div id="titulobienvenida">
-                <h1>BIENVENIDOS</h1>
+                <div class="w3-content w3-section">             
+                    <h1 class="mySlides w3-animate-fading"  >HOLA...!</h1>
+                    <h1 class="mySlides w3-animate-fading" >SI HAZ LLEGADO HASTA AQUÍ</h1>
+                    <h1 class="mySlides w3-animate-fading"  >ES PORQUE DESEAS CONOCERME</h1>
+                    <h1 class="mySlides w3-animate-fading" >Y SABER EN QUE PODRÍA AYUDARTE</h1>
+                    <h1 class="mySlides w3-animate-fading" >ESTAS EN EL LUGAR CORRECTO..!!!</h1>
+                    <h1 class="mySlides w3-animate-fading">BIENVENIDOS</h1> 
+                    <h1 class="mySlides w3-animate-fading">...</h1> 
+                  </div>
             </div>
-            <div id="parrafo">
-                Hola..!!! Si has llegado hasta aquí, es porque deseas conocerme 
-                y saber en qué podría ayudarte, estás en el lugar correcto..
-                Bienvenido...!!!!
+            <div id="frase">
+                Aprende como si fueras a vivir toda la vida y vive como si fueras a morir mañana..!!
             </div>
         </div>
         <!--EMPIEZA MODAL PRESENTACION-->
@@ -250,7 +256,7 @@
                             <div id="experiencias">
                                 <p>LENGUAJE DE PROGRAMACIÓN C# <span id="barraprogreso"><span id="barraprogreso95"></span>95%</span></p>
                                 <p>SQL SERVER <span id="barraprogreso"><span id="barraprogreso80"></span>80%</span></p>
-                                <p>ADOBBE PHOTOSHOP <span id="barraprogreso"><span id="barraprogreso90"></span>90%</span></p>
+                                <p>ADOBE PHOTOSHOP <span id="barraprogreso"><span id="barraprogreso90"></span>90%</span></p>
                                 <p>MONGO DATA BASE-NO SQL <span id="barraprogreso"><span id="barraprogreso75"></span>75%</span></p>
                                 <p>HTML <span id="barraprogreso"><span id="barraprogreso90"></span>90%</span></p>
                                 <p>CSS <span id="barraprogreso"><span id="barraprogreso100"></span>100%</span></p>
@@ -260,12 +266,28 @@
                             <div id="titulosobremi">
                                 INTERESES
                             </div>
-                            <div id="saltodediv">
+                            <div id="imageninteres">
+                                     
+                                     <img src="imagenes/bailar.png" title="Bailar" width="100"  />
+                                     <div id="textintereses">BAILAR</div>    
+                                 
+                                </div>
+                            <div id="imageninteres">
+                                     
+                                <img src="imagenes/bicycle.png" title="Manejar Bicicleta" width="100"  /> 
+                                <div id="textintereses">MANEJAR BICICLETA</div>     
+                                
                             </div>
+                            <div id="imageninteres">
+                                     
+                                <img src="imagenes/headphones.png" title="Escuchar Música" width="100"  />    
+                                <div id="textintereses">ESCUCHAR MÚSICA</div> 
+                           </div>
                     </div>
-                    <div id="saltodediv">
-                    </div>
+                    
 
+                </div>
+                <div id="saltodediv">
                 </div>
             </div>
         </div>
@@ -315,10 +337,25 @@
     </div>
     
     </footer>
+    
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000);    
+        }
+        </script>
+    
     </body>
-    
-    
-    
-    
     </html>
     

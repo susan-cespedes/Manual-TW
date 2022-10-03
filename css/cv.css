@@ -73,7 +73,7 @@
     100% {opacity:0;width:355px;}
 }
 #cvcuerpo{
-    width: 100%;
+    width: 95%;
     padding: 20px;
 }
 #cvcolumnauno{
@@ -111,6 +111,8 @@
 #titulobienvenida{
     text-align: center;
     color: rgb(236, 212, 59);
+	width: 100%;
+	padding-bottom: 20px;
 }
 .modalDialog {
 	position: fixed;
@@ -172,6 +174,8 @@ h2{
 	padding: 30px;
 	margin: auto;
 	width: 70%;
+	border: solid 2px blue;
+	border-radius: 10px;
 
 }
 p{
@@ -240,12 +244,13 @@ p{
 	padding-bottom: 20px;
 }
 #minombre{
-	font-size: 45px;
+	font-size: 55px;
 	font-weight: bold ;
 	color: rgb(85, 68, 47);
 	line-height: 60px;
 	position: relative;
 	left: -47px;
+	font-family: "Brush Script MT";
 }
 #minombre p{
 	line-height: 50px;
@@ -279,6 +284,7 @@ p{
 	float:right;
 	left: -150px;
 	position: relative;
+	border-radius: 10px;
 	
 }
 #barraprogreso95{
@@ -286,29 +292,49 @@ p{
 	width: 20px;
 	height: 20px;
 	display: flex;
+	border-radius: 10px 0 0 10px;
 }
 #barraprogreso80{
 	background-color: rgb(249, 247, 246);
 	width: 40px;
 	height: 20px;
 	display: flex;
+	border-radius: 10px 0 0 10px;
 }
 #barraprogreso90{
 	background-color: rgb(249, 247, 246);
 	width: 15px;
 	height: 20px;
 	display: flex;
+	border-radius: 10px 0 0 10px;
 }
 #barraprogreso75{
 	background-color: rgb(249, 247, 246);
 	width: 55px;
 	height: 20px;
 	display: flex;
+	border-radius: 10px 0 0 10px;
 }
-#barraprogreso90{
-	background-color: rgb(249, 247, 246);
-	width: 15px;
-	height: 20px;
-	display: flex;
+#textintereses{
+	text-align: center;
+	color: rgb(109, 83, 48);
+	font-weight: bold;
+	padding-top: 10px;
 }
+#imageninteres{
+	text-align: center;
+	float: left;
+	padding: 10px;
+}
+#imageninteres img:hover{
+	filter: opacity(.5);
+}
+#frase{
+	text-align: center;
+	padding: 30px;
+	margin-bottom: 20px;
+	width: 70%;
+	border: solid 2px blue;
+	border-radius: 10px;
 
+}
