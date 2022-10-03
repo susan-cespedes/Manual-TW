@@ -332,9 +332,13 @@ p{
 #frase{
 	text-align: center;
 	padding: 30px;
+	margin: auto;
 	margin-bottom: 20px;
 	width: 70%;
 	border: solid 2px blue;
 	border-radius: 10px;
+	font-size: 25px;
+	font-family: cursive;
+	
 
 }
